@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--===============================================================================================-->
+  <meta name="Description" content="Enter your description here" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="assets/css/resposive.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="assets/css/grid-gallery.min.css">
+  <!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <!--===============================================================================================-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+  <!--===============================================================================================-->
+  <title>Customer</title>
+</head>
+
+<body>
+  <!-- header section  started  -->
+
+  <section class="headr">
+    <div class="container">
+      <div class="logo">
+        <!-- logo here  -->
+        <img src="assets/images/logo.png" alt="logo">
+      </div>
+    </div>
+  </section>
+  <div class="pg-tite">
+    <div class="container">
+      <div class="pg-title row ">
+        <div class="pg-lft col">
+          <h2>CUSTOMER PAGE</h2>
+        </div>
+        <div class="pg-rgt col">
+          <P> <a href="index.html">HOME</a>/<a href="#">CUSTOMER PAGE</a></P>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- header section end  -->
+
+  <!-- gallery sectoion started  -->
+  <div class="content container">
+    <div class="gg-container">
+      <div class="gg-box dark" id="horizontal">
+        <img class="img-1" src="assets/images/gal-1.png">
+        <img class="img-2" src="assets/images/gal-2.png">
+        <img class="img-3" src="assets/images/gal-3.png">
+        <img class="img-4" src="assets/images/gal-4.png">
+        <img class="img-5" src="assets/images/gal-5.png">
+        <img class="img-6" src="assets/images/gal-6.png">
+      </div>
+    </div>
+    <div class="gal-btn">
+
+      <button class="btn-1 gbtn-2">1</button>
+      <button class="btn-2 gbtn-2">2</button>
+      <button class="btn-3 gbtn-2">3</button>
+      <button class="btn-4 gbtn-2">Next</button>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+    <div class="gal-btn-2 row">
+      <div class="gal-btnt-1 col">
+        <botton class=" gbtn">Upload Photo</botton>
+      </div>
+      <div class="gal-btnt-2 col">
+        <botton class=" gbtn">Upload Document</botton>
+      </div>
+      <div class="gal-btnt-3 col">
+        <botton class=" gbtn">Account Update</botton>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- gallery sectoion started  -->
+
+  <!-- footer section started -->
+  <section class="foter">
+    <div class="footer-cnt container">
+      <p>Copyright © 2020 Name Here Company Template - All Rights Reserved.
+      </p>
+    </div>
+  </section>
+  <!-- footer section end  -->
+
+
+  <script src="assets/js/grid-gallery.min.js"></script>
+  <script>
+    gridGallery({
+      selector: ".dark",
+      darkMode: true
+    });
+    gridGallery({
+      selector: "#horizontal",
+      layout: "horizontal"
+    });
+    gridGallery({
+      selector: "#square",
+      layout: "square"
+    });
+    gridGallery({
+      selector: "#gap",
+      gaplength: 10
+    });
+    gridGallery({
+      selector: "#heightWidth",
+      rowHeight: 180,
+      columnWidth: 280
+    });
+  </script>
+</body>
+
+</html>

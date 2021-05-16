@@ -1,0 +1,290 @@
+/* Laptop device */
+@media only screen and (max-width : 1199px) {
+
+  .card {
+    width: 290px !important;
+  }
+
+  .card-title {
+    font-size: 19pt;
+  }
+
+  .card-text {
+    font-size: 10pt;
+  }
+
+  .header-contant button {
+    padding: 9px 25px;
+    font-size: 15pt;
+  }
+
+  .header-contant.col button {
+    margin-top: 124px;
+  }
+
+  /* circular menu  */
+  .almond label::before {
+    top: -52px;
+    left: 111px;
+  }
+
+  .unsel label::before {
+    width: 145px;
+    height: 145px;
+    left: 8%;
+  }
+
+  .grape label::before {
+    top: -133px;
+    left: 122px;
+  }
+
+  .blackberry label::before {
+    left: 73px;
+    top: -170px;
+  }
+
+  .cherry label::before {
+    top: -175px;
+    left: 8px;
+  }
+
+  .raspberry label::before {
+    top: -138px;
+    left: -57px;
+  }
+
+  /* circular menu  */
+
+
+}
+
+/* medium device */
+@media only screen and (max-width : 991px) {
+  .logo img {
+    width: 150px;
+  }
+
+  .header-contant button {
+    padding: 15px;
+    font-size: 10pt;
+    margin-bottom: 25px;
+  }
+
+  .header-contant {
+    text-align: center;
+    margin-bottom: 55px;
+  }
+
+  .header-contant.col button {
+    margin-top: 0;
+  }
+
+  /* circular menu  */
+
+
+  nav {
+    width: 20em;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .unsel label::before {
+    width: 160px;
+    height: 160px;
+  }
+
+  .grape label::before {
+    top: -137px;
+    left: 131px;
+  }
+
+  .blackberry label::before {
+    left: 76px;
+    top: -180px;
+  }
+
+  .cherry label::before {
+    top: -184px;
+    left: 6px;
+  }
+
+  .raspberry label::before {
+    top: -145px;
+    left: -63px;
+  }
+
+  /* circular menu  */
+
+  .serv-head h2::after {
+    right: 25%;
+  }
+
+  .serv-head h2::before {
+    width: 152px;
+    right: 5%;
+  }
+
+  .services-cnt p {
+    font-size: 18pt;
+  }
+
+  .serv-head h2 {
+    font-size: 16pt;
+    padding-bottom: 24px;
+  }
+
+  .header-cnt {
+    padding: 65px 0 0 0;
+    display: block;
+  }
+
+  .card-title {
+    font-size: 15pt;
+  }
+
+  .card-text {
+    font-size: 12pt;
+  }
+
+  .card {
+    width: 350px !important;
+  }
+
+  .card-text {
+    padding: 0 0;
+  }
+
+  .services-card {
+    display: block;
+  }
+
+  .serv-card {
+    margin: auto;
+    width: 50%;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+
+  .btn.btn-primary.ser-butn {
+    font-size: 14pt;
+    padding: 15pt 25px;
+  }
+
+  .serv-head h2::after {
+    left: 50%;
+    margin-left: -43px;
+  }
+
+  .serv-head h2::before {
+    left: 50%;
+    margin-left: -77px;
+  }
+
+  .pg-lft h2 {
+    font-size: 20pt;
+  }
+
+  .pg-rgt p a {
+    font-size: 10pt;
+  }
+
+  #horizontal {
+    width: 100%;
+  }
+
+  .gal-btn-2.row {
+    display: block;
+  }
+
+  .gal-btnt-3.col {
+    text-align: center;
+  }
+
+  .gal-btnt-1.col {
+    /* text-align: right; */
+    text-align: center;
+    margin-bottom: 65px;
+  }
+
+  .gal-btnt-2.col {
+    margin-bottom: 65px;
+  }
+
+
+}
+
+/* tablet device */
+
+@media only screen and (max-width : 768px) {
+
+  .serv-card {
+    width: 62%;
+    padding-left: 0px;
+  }
+
+  #horizontal {
+    grid-template-row: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img-1 {
+    grid-row: 1/2;
+  }
+
+  .img-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .img-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .img-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .img-6 {
+
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+
+
+}
+
+/* Android device */
+
+@media only screen and (max-width : 480px) {
+
+  .card {
+    width: 200px !important;
+  }
+
+  .card-text {
+    font-size: 8pt;
+  }
+
+  .serv-card {
+    width: 50%;
+  }
+
+  .pg-lft h2 {
+    font-size: 12pt;
+  }
+
+  .pg-rgt p a {
+    font-size: 7pt;
+  }
+
+  .gbtn-2 {
+    margin-right: 3px;
+    padding: 0px 2px;
+    font-size: 10pt;
+  }
+
+
+}
